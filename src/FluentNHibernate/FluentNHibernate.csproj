@@ -59,9 +59,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\CommonAssemblyInfo.cs">
-      <Link>CommonAssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="Automapping\Alterations\AutoMappingOverrideAlteration.cs" />
     <Compile Include="Automapping\Alterations\IAutoMappingAlteration.cs" />
     <Compile Include="Automapping\Alterations\IAutoMappingOverride.cs" />
@@ -430,6 +427,7 @@
     <Compile Include="Mapping\Providers\IPropertyMappingProvider.cs" />
     <Compile Include="Mapping\Providers\IReferenceComponentMappingProvider.cs" />
     <Compile Include="Mapping\TuplizerPart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testing\Values\ReferenceBag.cs" />
     <Compile Include="Utils\StringLikeness.cs" />
     <Compile Include="Visitors\AmbiguousComponentReferenceException.cs" />
